@@ -1,0 +1,468 @@
+@media screen and (max-width:600px) {
+
+    /**************************************** Hello Section Start ***************************************/
+    .hello-section .hello-section-img {
+        width: 90%;
+    }
+
+    .hello-section .profile-img {
+        top: 20px;
+        left: 35px;
+    }
+
+    .hello-section .profile-img img {
+        width: 100%;
+    }
+
+    .hello-section .hov-layer {
+        width: 432px;
+        height: 530px;
+        transform: translateY(530px);
+    }
+
+    .hello-section-content {
+        width: 100%;
+        padding: 50px 15px 15px 0px;
+    }
+
+    .hello-section-content .columns {
+        font-size: 17px;
+    }
+
+    .hello-section-content p {
+        font-size: 14px;
+    }
+
+    .hello-section-content .disc {
+        font-size: 14px;
+    }
+
+    /**************************************** Hello Section Start **********************************************/
+
+    /**************************************** Our Services Section start  ***********************************/
+
+    .our-services-section-item {
+        width: 100%;
+    }
+
+    .our-services-section-item p {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+
+    /**************************************** Our Services Section End  ***********************************/
+
+    /**************************************** Our portfolio Section start  ***********************************/
+
+    .our-portfolio-items .item {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .our-portfolio-items .item .portfolio-layer {
+        width: 700px;
+        height: 500px;
+    }
+
+    /**************************************** Our portfolio Section end  ***********************************/
+
+    /**************************************** statiscs section start  *************************************/
+
+    .statistics-member {
+        width: 100%;
+    }
+
+    /**************************************** statiscs section end  *************************************/
+
+    /**************************************** clients-feedback section start  **************************/
+
+    .client-feedback-content {
+        width: 95%;
+        height: 250px;
+    }
+
+    .client-feedback-layer {
+        width: 350px;
+        top: -172px;
+        left: -170px;
+    }
+
+    .client-feedback-content img {
+        top: -230px;
+        right: -40px;
+        width: 90px;
+    }
+
+    .client-feedback-desc {
+        top: -250px;
+        left: 20px;
+    }
+
+    .client-feedback-desc p {
+        padding: 15px 10px 0px 0px;
+        font-size: 14px;
+    }
+
+    /**************************************** clients-feedback section end  **************************/
+
+    /**************************************** our blog section start  *******************************/
+
+    .our-blog-section-member {
+        width: 100%;
+    }
+
+    .our-blog-section-member-content p {
+        font-size: 16px;
+    }
+
+    /**************************************** our blog section end  *******************************/
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+
+    /**************************************** Hello Section Start ***************************************/
+    .hello-section .hello-section-img {
+        width: 70%;
+        margin-left: 50px;
+        padding-left: 30px;
+    }
+
+    .hello-section .profile-img {
+        top: 20px;
+        left: 35px;
+    }
+
+    .hello-section .profile-img img {
+        width: 100%;
+    }
+
+    .hello-section .hov-layer {
+        width: 432px;
+        height: 530px;
+        transform: translateY(530px);
+    }
+
+    .hello-section-content {
+        width: 100%;
+        padding: 50px 15px 15px 0px;
+    }
+
+    /**************************************** Hello Section Start **********************************************/
+
+    /**************************************** Our Services Section start  ***********************************/
+
+    .our-services-section-item {
+        width: 50%;
+    }
+
+
+    /**************************************** Our Services Section End  ***********************************/
+
+
+    /**************************************** Our portfolio Section start  ***********************************/
+
+    .our-portfolio-items .item {
+        width: 46%;
+        float: left;
+        margin: 10px 10px;
+    }
+
+    .our-portfolio-items .item .portfolio-layer {
+        width: 700px;
+        height: 500px;
+    }
+
+    /**************************************** Our portfolio Section end  ***********************************/
+
+    /**************************************** statiscs section start  *************************************/
+
+    .statistics-member {
+        width: 50%;
+    }
+
+    /**************************************** statiscs section end  *************************************/
+
+    /**************************************** clients-feedback section start  **************************/
+
+    .client-feedback-content {
+        width: 85%;
+        height: 250px;
+    }
+
+    .client-feedback-layer {
+        width: 350px;
+        top: -172px;
+        left: -170px;
+    }
+
+    .client-feedback-content img {
+        top: -230px;
+        right: -40px;
+        width: 120px;
+    }
+
+    .client-feedback-desc {
+        top: -250px;
+        left: 20px;
+    }
+
+    .client-feedback-desc p {
+        padding: 15px 10px 0px 0px;
+        font-size: 14px;
+    }
+
+    /**************************************** clients-feedback section end  **************************/
+
+
+    /**************************************** our blog section start  *******************************/
+
+    .our-blog-section-members {
+        width: 85%;
+    }
+
+    .our-blog-section-member {
+        width: 100%;
+    }
+
+    .our-blog-section-member-content p {
+        font-size: 16px;
+    }
+
+    /**************************************** our blog section end  *******************************/
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    /**************************************** Hello Section Start ***************************************/
+    .hello-section {
+        width: 95%;
+        padding: 10px 0px;
+    }
+
+    .hello-section .hello-section-img {
+        width: 40%;
+    }
+
+    .hello-section .profile-img {
+        top: 20px;
+        left: 35px;
+    }
+
+    .hello-section .profile-img img {
+        width: 100%;
+    }
+
+    .hello-section .hov-layer {
+        width: 432px;
+        height: 530px;
+        transform: translateY(530px);
+    }
+
+    .hello-section-content {
+        width: 55%;
+        padding: 0px 5px 15px 15px;
+    }
+
+    .hello-section-content .disc {
+        font-size: 14px;
+    }
+
+    .hello-section-content p {
+        font-size: 14px;
+    }
+
+    .hello-section-content .columns p {
+        padding: 10px 0px;
+    }
+
+    /**************************************** Hello Section Start **********************************************/
+
+    /**************************************** Our Services Section start  ***********************************/
+
+    .our-services-section-item {
+        width: 50%;
+    }
+
+    /**************************************** Our Services Section End  ***********************************/
+
+
+    /**************************************** Our portfolio Section start  ***********************************/
+
+    .our-portfolio-items .item {
+        width: 30%;
+    }
+
+    .our-portfolio-items .item .portfolio-layer {
+        width: 700px;
+        height: 500px;
+    }
+
+    /**************************************** Our portfolio Section end  ***********************************/
+
+
+    /**************************************** statiscs section start  *************************************/
+
+
+    .statistics-member {
+        padding: 20px 0px;
+    }
+
+    .statistics-member p {
+        font-size: 14px;
+    }
+
+    /**************************************** statiscs section end  *************************************/
+
+    /**************************************** clients-feedback section start  **************************/
+
+    .client-feedback-content {
+        width: 80%;
+        height: 250px;
+    }
+
+    .client-feedback-layer {
+        width: 350px;
+        top: -172px;
+        left: -170px;
+    }
+
+    .client-feedback-content img {
+        top: -230px;
+        right: -40px;
+        width: 120px;
+    }
+
+    .client-feedback-desc {
+        top: -250px;
+        left: 20px;
+    }
+
+    .client-feedback-desc p {
+        padding: 15px 10px 0px 0px;
+        font-size: 16px;
+    }
+
+    /**************************************** clients-feedback section end  **************************/
+
+    /**************************************** our blog section start  *******************************/
+
+    .our-blog-section-members {
+        width: 95%;
+    }
+
+    .our-blog-section-member iframe {
+        width: 100%;
+        height: 19%;
+    }
+
+    /**************************************** our blog section end  *******************************/
+
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+    /**************************************** Hello Section Start ***************************************/
+    .hello-section {
+        width: 95%;
+        padding: 10px 0px;
+    }
+
+    .hello-section .hello-section-img {
+        width: 40%;
+    }
+
+    .hello-section .profile-img {
+        top: 20px;
+        left: 35px;
+    }
+
+    .hello-section .profile-img img {
+        width: 100%;
+    }
+
+    .hello-section .hov-layer {
+        width: 432px;
+        height: 530px;
+        transform: translateY(530px);
+    }
+
+    .hello-section-content {
+        width: 55%;
+        padding: 0px 5px 15px 20px;
+    }
+
+    .hello-section-content .disc {
+        font-size: 16px;
+    }
+
+    .hello-section-content p {
+        font-size: 16px;
+    }
+
+    .hello-section-content .columns p {
+        padding: 15px 0px;
+    }
+
+    /**************************************** Hello Section Start **********************************************/
+
+    /**************************************** Our Services Section start  ***********************************/
+
+    .our-services-section-item {
+        width: 25%;
+    }
+
+    .our-services-section-item p {
+        padding: 15px 5px;
+        font-size: 14px
+    }
+
+    /**************************************** Our Services Section End  ***********************************/
+
+    /**************************************** Our portfolio Section start  ***********************************/
+
+    .our-portfolio-items .item {
+        width: 30%;
+    }
+
+    .our-portfolio-items .item .portfolio-layer {
+        width: 700px;
+        height: 500px;
+    }
+
+    /**************************************** Our portfolio Section end  ***********************************/
+
+    /**************************************** clients-feedback section start  **************************/
+
+    .client-feedback-content {
+        width: 75%;
+        height: 250px;
+    }
+
+    .client-feedback-layer {
+        width: 350px;
+        top: -172px;
+        left: -170px;
+    }
+
+    .client-feedback-content img {
+        top: -230px;
+        right: -40px;
+        width: 120px;
+    }
+
+    .client-feedback-desc {
+        top: -250px;
+        left: 20px;
+    }
+
+    .client-feedback-desc p {
+        padding: 15px 10px 0px 0px;
+        font-size: 18px;
+    }
+
+    /**************************************** clients-feedback section end  **************************/
+}

@@ -1,0 +1,503 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+/**************************************** Home Section Start ***********************************************/
+.home {
+    background-image: url(../Images/home\ background.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+}
+
+.nav-bar-layer {
+    background-color: rgba(53, 50, 50, 0.5);
+    padding: 20px;
+}
+
+.nav-bar {
+    width: 80%;
+    margin: auto;
+}
+
+.home .nav-bar .logo {
+    width: 15%;
+    float: left;
+}
+
+.home .nav-bar .logo a {
+    font-weight: bold;
+    color: #ff305b;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.home .nav-bar .nav-menu {
+    width: 50%;
+    float: right;
+}
+
+.home .nav-bar .nav-menu ul {
+    list-style: none;
+}
+
+.home .nav-bar .nav-menu ul li {
+    float: left;
+    padding-left: 20px;
+}
+
+.home .nav-bar .nav-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.home-content {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    color: #fff;
+    padding: 25px;
+}
+
+.home-content h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.home-content h1 {
+    color: #ff305b;
+    font-size: 70px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.home-content h4 {
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.clr {
+    clear: both;
+}
+
+/**************************************** Home Section End **************************************************/
+
+/**************************************** Hello Section Start **********************************************/
+.hello-section {
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px 20px;
+}
+
+.hello-section .hello-section-img {
+    width: 30%;
+    float: left;
+}
+
+.hello-section .img-layer {
+    border: 8px solid #555555;
+    border-radius: 10px;
+}
+
+.hello-section .profile-img {
+    position: relative;
+    top: 9px;
+    left: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.hello-section .profile-img img {
+    width: 110%;
+}
+
+.hello-section .hov-layer {
+    width: 370px;
+    height: 451px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-radius: 5px;
+    transform: translateY(452px);
+    transition: transform 0.5s;
+}
+
+.hello-section-img:hover .hov-layer {
+    transform: translateY(0px);
+}
+
+.hello-section-content {
+    width: 63%;
+    float: right;
+    padding: 0px 15px 0px 25px;
+}
+
+.hello-section-content h2 span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff305b;
+}
+
+.hello-section-content h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hello-section-content .disc {
+    padding: 15px 0px;
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px dashed #555555;
+}
+
+.hello-section-content .columns {
+    font-size: 18px;
+    color: #555555;
+    padding: 0px 0px 10px 0px;
+}
+
+.hello-section-content .first-column {
+    width: 50%;
+    float: left;
+}
+
+.hello-section-content .second-column {
+    width: 50%;
+    float: right;
+}
+
+.hello-section-content .columns span {
+    font-weight: bold;
+    color: #444;
+
+}
+
+.hello-section-content .columns p {
+    padding: 15px 0px;
+}
+
+.hello-section-content button {
+    padding: 15px 30px;
+    background-color: #ff305b;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.hello-section-content button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+/**************************************** Hello Section End **********************************************/
+
+/**************************************** Our Services Section start  ***********************************/
+.our-services-section {
+    background-color: #f1f1f1;
+    margin: 70px 0px;
+    padding: 70px 0px;
+}
+
+.our-services-section-heading {
+    text-align: center;
+    padding: 20px;
+    font-size: 27px;
+}
+
+.our-services-section-items {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.our-services-section-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    transition: background-color 1s;
+}
+
+.our-services-section-item:hover {
+    background-color: #fff;
+}
+
+.our-services-section-item h3 {
+    color: #333;
+    padding-top: 10px;
+    font-size: 18.72px;
+}
+
+.our-services-section-item p {
+    padding: 15px 5px;
+    color: #555555;
+    font-size: 18px;
+}
+
+/**************************************** Our Services Section End  ***********************************/
+
+/**************************************** Our portfolio Section start  ***********************************/
+
+.our-portfolio-section {
+    margin: 70px 0px;
+    padding: 70px 0px;
+}
+
+.our-portfolio-heading {
+    text-align: center;
+}
+
+.our-portfolio-heading h2 {
+    padding: 25px;
+    font-size: 40.5px;
+    font-weight: bold;
+}
+
+.our-portflio-choices {
+    padding: 25px;
+}
+
+.our-portflio-choices span {
+    margin-left: 25px;
+}
+
+.our-portfolio-items {
+    width: 90%;
+    margin: auto;
+}
+
+.our-portfolio-items .item {
+    width: 31.5%;
+    float: left;
+    margin: 10px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-portfolio-items .item img {
+    width: 100%;
+    transition: transform 1s 0.5s;
+}
+
+.our-portfolio-items .item .portfolio-layer {
+    width: 382px;
+    height: 285px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.our-portfolio-items .item:hover .portfolio-layer {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.our-portfolio-items .item:hover .portfolio-hov {
+    transform: scale(1.1, 1.1);
+}
+
+/**************************************** Our portfolio Section end  ***********************************/
+
+/**************************************** statiscs section start  *************************************/
+
+.statistics-section{
+    background-color: #f1f1f1;
+    margin: 70px 0px;
+    padding: 70px 0px;
+}
+
+.statistics-members { 
+    width: 80%;
+    margin: auto;
+}
+
+.statistics-member {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.statistics-member h3 { 
+    font-size: 18.72px;
+}
+
+.statistics-member p { 
+    padding: 15px 0px;
+    font-size: 18px;
+    color: #555555;
+    font-weight: 500;
+}
+
+/**************************************** statiscs section end  *************************************/
+
+/**************************************** clients-feedback section start  **************************/
+
+.client-feedback-section { 
+    margin: 70px 0px;
+    padding: 70px 0px;
+}
+
+.client-feedback-heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.client-feedback-heading h2 { 
+    color: #333;
+    font-size: 40.5px;
+}
+
+.client-feedback-content{
+    background-color: #f1f1f1;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    height: 250px;
+    padding-right: 10px;
+}
+
+.client-feedback-layer {
+    width: 520px;
+    height: 240px;
+    background-color: #ff305b;
+    transform: rotate(-200deg);
+    position: relative;
+    top: -150px;
+    left: -170px;
+}
+
+.client-feedback-content img { 
+    border-radius: 50%;
+    position: relative;
+    top: -220px;
+    right: -60px;
+    width: 120px;
+}
+
+.client-feedback-desc { 
+    position: relative;
+    top: -230px;
+    padding: 40px 10px 0px ;
+    width: 71%;
+    float: right;
+}
+
+.client-feedback-desc h3 { 
+    color: #444;
+    font-size: 25px;
+}
+
+.client-feedback-desc span { 
+    color: #777;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 15px 0px 0px ;
+    display: block;
+}
+
+.client-feedback-desc p { 
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+}
+
+/**************************************** clients-feedback section end  **************************/
+
+/**************************************** our blog section start  *******************************/
+
+.our-blog-section { 
+    background-color: #f1f1f1;
+    margin: 70px 0px;
+    padding: 70px 0px;
+}
+
+.our-blog-section-headings { 
+    text-align: center;
+    padding: 15px;
+    font-size: 40.5px;
+    color: #333;
+}
+
+.our-blog-section-members { 
+    width: 90%;
+    margin: auto;
+}
+
+.our-blog-section-member { 
+    width: 33.3333333%;
+    float: left;
+}
+
+.our-blog-section-member-layer { 
+    padding: 15px;
+}
+
+.our-blog-section-member img , .our-blog-section-member iframe { 
+    width: 100%;
+}
+
+.our-blog-section-member-content { 
+    background-color: #fff;
+    padding: 12px;
+}
+
+.our-blog-section-member-content p { 
+    padding: 15px 0px;
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.our-blog-section-member-content h2 { 
+    color: #444;
+    font-size: 22px;
+}
+
+.our-blog-section-member-content a { 
+    color: #444;
+    text-decoration: none;
+    transition: color 0.5s;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.our-blog-section-member-content a:hover { 
+    color: #ff305b;
+}
+
+/**************************************** our blog section end  *******************************/
